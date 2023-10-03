@@ -17,7 +17,7 @@ h11==0.14.0
 h5py==3.8.0
 httptools==0.6.0
 idna==3.4
-keras==2.14.0
+keras==2.11.0
 libclang==16.0.6
 Markdown==3.4.4
 MarkupSafe==2.1.3
