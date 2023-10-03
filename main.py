@@ -24,7 +24,7 @@ async def home():
 @app.post("/predictions/")
 async def predict_image(file: UploadFile = File(...)):
     # Load the Keras model
-    model = keras.models.load_model('/Users/shourya-isr/Downloads/state_driver_detection_Fine_Tuning_All_Layers_model2_resnet50_adam_50epochs.h5')
+    model = keras.models.load_model('https://www.dropbox.com/scl/fi/urs8l4gyyp23qkkbtingj/from_state_to_auc_fine_tune_all_layers_mobilenetv3_adam_50epochs_imagenet_weights.h5?rlkey=jq3eyovv61poykvae0fc35rkh&dl=1')
     
     # Read the image file
     contents = await file.read()
